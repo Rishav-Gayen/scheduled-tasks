@@ -8,7 +8,7 @@ import pandas as pd
 load_dotenv()
 
 my_email = os.getenv("MY_EMAIL")
-my_password = os.getenv('APP_PASSWORD')
+my_password = os.getenv('MY_PASSWORD')
 birthday_data = pd.read_csv("birthdays.csv")
 now = dt.datetime.now()
 
